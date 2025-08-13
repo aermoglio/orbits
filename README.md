@@ -12,4 +12,15 @@ In this project, the orbit of the moon was computed using scipy.integrate. It wa
 
 ## Equations considered
 ### Moon around the Earth
+![Moon orbitting the Earth](images/moon_orbit.png)
+![Moon orbitting the Earth Differential Equations](images/moon_diff_eq.png)
 
+### Probe around the Moon
+![Probe orbitting the Moon](images/probe_orbit.png)
+![Probe orbitting the Moon Differential Equations](images/probe_diff_eq.png)
+
+## Results
+Two plots were produced, one representing the orbit of the moon around the Earth and the other displaying the orbits of both the moon and the probe around the Earth. Obtaining these plots involved determining the appropriate tolerances in the integration that would result in the most accurate plot. 
+
+![Moon orbit](images/moon.png)
+![Probe and moon orbit](images/probe_and_moon.png)
